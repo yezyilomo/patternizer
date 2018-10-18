@@ -3,7 +3,6 @@ import numpy as np
 import time
 
 def anim(text, tm):
-    print( len(text.split("\n")) )
     for char in text:
         time.sleep(tm)
         yield char
