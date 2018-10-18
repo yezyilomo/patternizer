@@ -16,10 +16,10 @@
 ![Alt text](https://raw.githubusercontent.com/yezyilomo/patternizer/master/demo_pics/pic3.png "Optional Title")
 
 
-![Alt text](https://raw.githubusercontent.com/yezyilomo/patternizer/master/demo_pics/google%40.png "Optional Title")
-
-
 ![Alt text](https://raw.githubusercontent.com/yezyilomo/patternizer/master/demo_pics/google%23.png "Optional Title")
+
+
+![Alt text](https://raw.githubusercontent.com/yezyilomo/patternizer/master/demo_pics/google%40.png "Optional Title")
 
 
 ![Alt text](https://raw.githubusercontent.com/yezyilomo/patternizer/master/demo_pics/sony2.png "Optional Title")
