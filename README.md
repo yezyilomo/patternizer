@@ -2,7 +2,7 @@
 
  This is a Python Library for patternizing Strings with preferred characters and fonts
 
- See examples of strings patternized with @ and # below
+ See example of strings patternized with @ and # below 
   
 ![Alt text](https://raw.githubusercontent.com/yezyilomo/patternizer/master/demo_pics/pic1.png "Optional Title")
 
