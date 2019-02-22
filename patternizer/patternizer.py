@@ -1,6 +1,7 @@
-from PIL import Image, ImageDraw, ImageFont
-import numpy as np
 import time
+
+import numpy as np
+from PIL import Image, ImageDraw, ImageFont
 
 def anim(text, tm):
     for char in text:
@@ -14,7 +15,9 @@ class Patternizer(object):
     def using(self, pattern_char, fontpath=None, fontsize=None):
         self.output=[]
         for text in self.texts:
-            self.output.append( self._patternize_text(text,pattern_char, fontpath, fontsize) )
+            self.output.append(
+                self._patternize_text(text,pattern_char, fontpath, fontsize)
+            )
         return "\n\n".join(self.output)
         
     def _insert_pattern(self,array, char):
@@ -22,7 +25,11 @@ class Patternizer(object):
         txt = '\n'.join([''.join(row) for row in result])
         return txt
 
-    def _patternize_text(self, text, pattern_char, fontpath=None, fontsize=None):
+    def _patternize_text(self, 
+                         text, 
+                         pattern_char, 
+                         fontpath=None, 
+                         fontsize=None):
         font = ImageFont.truetype(fontpath, fontsize)
         width, height = font.getsize(text)
         image = Image.new('L', (width, height), 1)
